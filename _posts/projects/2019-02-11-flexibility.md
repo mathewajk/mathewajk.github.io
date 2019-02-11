@@ -10,7 +10,7 @@ project:
   title: "Flexibility"
   type: "Ongoing"
   url: "https://github.com/arnolds/pineapple"
-  logo: "/assets/images/projects/redpineapple/logo.png"
+  logo: "/assets/images/projects/flexibility/test.png"
   areas: "Syntax, Typology"
 
 collaborators:
@@ -19,9 +19,10 @@ collaborators:
 
 year: "2019-"
 
+
 images:
   - image:
-    url: ""
-    alt: ""
+    url: "/assets/images/projects/flexibility/test.png"
+    alt: "Sentence types."
 ---
 <p>Blurb.</p>

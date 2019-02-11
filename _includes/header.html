@@ -1,6 +1,11 @@
 <header class="header">
 		<div class="nav container">
-				<p><a title="CV" href="about">about</a> // <a title="CV" href="cv">CV</a>
+			{% for link in site.links %}
+				<a title="{{ link.title }}" href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a>
+				{% if link.next %}
+				<span>|</span>
+				{% endif %}
+			{% endfor %}
 		</div>
 		<div class="logo">
 			<a title="Alex Kramer / Ph.D. student, University of Michigan Department of Linguistics" href="/alexeme/">Alex Kramer / Ph.D. student, University of Michigan Department of Linguistics</a>

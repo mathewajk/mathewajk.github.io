@@ -8,7 +8,7 @@
 
 .header {
 	background: $color-alabaster;
-	padding: 3rem 1em 3em 1em;
+	padding: 3rem 1em 2.5em 1em;
 	font-size: 1.8rem;
 	font-weight: 600;
 	margin: 0;
@@ -17,7 +17,6 @@
 
 .logo {
 	float: left;
-	font-size: 1.8rem;
 }
 
 .nav {
@@ -163,7 +162,7 @@
 	top: 0;
 
 	@media (min-width: $breakpoint-medium) {
-		margin-top: -21rem;
+		margin-top: -7rem;
 
 		.article-wrapper {
 			position: absolute;
