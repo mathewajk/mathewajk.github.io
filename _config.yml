@@ -5,6 +5,9 @@ description: "I study language contact and contact-induced change from a psychol
 keywords: "Linguistics, Language Contact, Morphosyntax"
 email: "arkram@umich.edu"
 github: "https://github.com/Narquelion"
+links:
+  l1: "cv"
+  l2: "about"
 
 # Site config
 baseurl: "/"
