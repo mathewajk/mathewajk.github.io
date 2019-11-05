@@ -1,0 +1,36 @@
+#search {
+  color: $muted-text-color;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+#search__input {
+  color: $muted-text-color;
+  background: transparent;
+  border: 0;
+  font: 1em $font-family;
+  padding: .5em;
+  text-align: center;
+  &:focus {
+    outline: 1px dashed $muted-text-color;
+  }
+}
+
+#search button[type="submit"] {
+  color: $muted-text-color;
+  display: none;
+}
+
+::-webkit-input-placeholder {
+  color: $muted-text-color;
+}
+::-moz-placeholder {
+  color: $muted-text-color;
+}
+:-ms-input-placeholder {
+  color: $muted-text-color;
+}
+:-moz-placeholder {
+  color: $muted-text-color;
+}
