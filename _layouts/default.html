@@ -1,51 +1,25 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
 
-    <title>{{ site.title }}{% if page.title and page.title != "" %} &mdash; {{ page.title }}{% endif %}</title>
+<html lang="en" class="h-100">
 
-    {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
+{% include head.html %}
 
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
+<body class="d-flex flex-column h-100">
 
-    <link rel="apple-touch-icon" href="{{ site.icon }}">
+  <main class="flex-shrink-0 container mt-5">
+  {% include navbar.html %}
+  {{ content }}
+  </main>
 
-    {%- if jekyll.environment == 'production' and site.google_analytics -%}
-      {%- include google-analytics.html -%}
-    {%- endif -%}
+  {% include footer.html %}
+  {% include scripts.html %}
 
-  </head>
-  <body>
+</body>
 
-    {% if page.layout == 'archive' %}
-      <a href="#main" class="skip-navigation">
-        Skip to list of posts
-      </a>
-    {% else %}
-      <a href="#main" class="skip-navigation">
-        Skip to content
-      </a>
-    {% endif %}
-
-    {{ content }}
-
-
-    {% include menu.html %}
-    {% unless site.hide_search %}
-        {% include search.html %}
-    {% endunless %}
-
-    {% unless site.hide_credits %}
-      <aside class="site-credits">
-        <p>
-          <small><a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
-        </p>
-      </aside>
-    {% endunless %}
-
-  </body>
 </html>

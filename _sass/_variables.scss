@@ -1,12 +1,10 @@
-$brand-color:          #11131c;
-$highlight:            lighten($brand-color, 35%);
-$text-color:           #11131c;
-$muted-text-color2:    #f0edf2;
-$muted-text-color:     #f0edf2;
-$highlight-text-color: #f0edf2;
-$font-family:          "EB Garamond", Garamond, "Times New Roman", serif;
+$primary:   #007bff;
+$secondary: #6c757d;
+$success:   #28a745;
+$info:      #17a2b8;
+$warning:   #ffc107;
+$danger:    #dc3545;
+$light:     #f8f9fa;
+$dark:      #343a40;
 
-$on-bigphone:          375px;
-$on-tablet:            768px;
-$on-laptop:            960px;
-$on-desktop:           1200px;
+$rounded-borders: 15px;

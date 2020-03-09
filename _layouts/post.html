@@ -1,34 +1,31 @@
 ---
-layout: default
+layout: page
 ---
 
-{% if site.data.menu %}
-  {% include menu.html %}
-{% else %}
-  {% include back-link.html %}
-{% endif %}
+<h1><b>{{ page.title }}</b></h1>
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
+<p class="post-metadata text-muted">
+  {{ page.date | date_to_long_string }} -  
+  <b>
+  {%- assign words = content | number_of_words -%}
+  {%- if words < 360 -%}
+    less than 1 min read time
+  {%- else -%}
+    {{ words | divided_by: 180 }} mins read time
+  {%- endif -%}
+  </b>
 
-  {% if page.title != "" %}
-    <h1 class="post-title divided p-name" itemprop="name headline">
-      {{ page.title }}
-    </h1>
-  {% endif %}
+  <br>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+  {%- if page.tags != empty -%}
+    Tags: 
+    {% for tag in page.tags %}
+    <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
+      <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
+    </a>
+    {% endfor %}
+  {%- endif -%}
 
-  <div class="post-meta">
-    {% if page.author %}
-      <div itemprop="author">{{ page.author }}</div>
-    {% endif %}
-    <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
-  </div>
+</p>
 
-  {% if site.disqus.shortname %}
-    {% include disqus-comments.html %}
-  {% endif %}
-
-</article>
+{{ content }}
