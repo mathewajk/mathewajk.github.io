@@ -7,7 +7,7 @@ weight: 3
 
 # **About Me**
 
-I am a second-year in the linguistics department at the University of Michigan.
+I am a second-year in the linguistics department at the University of Michigan. I'm a member of Dr. Savithry Namboodiripad's Contact, Cognition and Change Lab.
 
 Currently, I am working on change in constituent order flexibility through multiple projects. My primary research, which I am conducting for my Qualifying Research Paper, concerns the acceptability of non-canonical constituent orders among Japanese-English bilinguals in the greater Detroit area.
 

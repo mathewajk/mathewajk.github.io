@@ -2,11 +2,13 @@
   content: "";
   display: block;
   height: 0.15em;
-  background: $primary;
+  background: $indigo;
 }
 
 .nav-link,
 .navbar-brand {
+  padding-bottom: 1em;
+
   &::after {
     @extend .link-after;
     width: 0;

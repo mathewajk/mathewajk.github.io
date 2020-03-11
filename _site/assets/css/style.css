@@ -322,8 +322,9 @@ body { font-family: "Poppins", sans-serif; }
 
 .circle-image { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; object-position: center; }
 
-.link-after, .nav-link::after, .navbar-brand::after, .nav-item.active::after { content: ""; display: block; height: 0.15em; background: #007bff; }
+.link-after, .nav-link::after, .navbar-brand::after, .nav-item.active::after { content: ""; display: block; height: 0.15em; background: #6610f2; }
 
+.nav-link, .navbar-brand { padding-bottom: 1em; }
 .nav-link::after, .navbar-brand::after { width: 0; transition: width 0.35s; }
 .nav-link:hover::after, .navbar-brand:hover::after { width: 100%; }
 
