@@ -2,7 +2,8 @@
 ---
 
 function get_tools(repo_name) {
-  fetch(`https://api.github.com/repos/{{ site.github.owner_name }}/${repo_name}/topics`, {
+  console.log(repo_name)
+  fetch(`https://api.github.com/repos/{{ site.github.owner_name }}/${repo_name}topics`, {
     headers: {
       Accept: "application/vnd.github.mercy-preview+json"
     }
