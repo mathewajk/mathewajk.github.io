@@ -5,7 +5,6 @@
 
   <!-- Remote Projects -->
   {% for remote_project in page.remote_projects %}
-
     {%- for repo in site.github.public_repositories -%}
       {%- if remote_project == repo.name -%}
         {%- assign project = repo -%}
@@ -22,7 +21,7 @@
     {%- assign project_type = "remote" -%}
     {%- assign project_id   = project.name -%}
     {%- assign project_img  = false -%}
-    {%- assign project_name = titlecase | strip -%}
+    {%- assign project_name = project.name -%}
     {%- assign project_desc = project.description -%}
     {%- assign project_url  = project.html_url -%}
 
