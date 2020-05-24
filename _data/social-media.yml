@@ -95,3 +95,8 @@ osf:
   url: https://osf.io/
   icon: ai ai-osf
   color: 5CB9EC
+
+google-scholar:
+  url: https://scholar.google.com/
+  icon: ai ai-google-scholar
+  color: 4c90ff
