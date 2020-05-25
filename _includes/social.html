@@ -2,7 +2,7 @@
 
   {%- assign unfocused_color = "6c757d" -%}
 
-  {% for account in site.author %}
+  {% for account in site.author.accounts %}
 
     {%- assign service_name = account[0] -%}
     {%- assign service_data = site.data.social-media[service_name] -%}
