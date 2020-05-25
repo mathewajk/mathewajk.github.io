@@ -43,9 +43,9 @@ author:
      - Nick
   email-text             : arkram AT umich DOT edu
   birthday               : --10-18
-  pronouns-pref          : they/them/theirs
-  pronouns-other         : he/him/his
-  pronouns-other-example : он/его
+  pronouns-pref          : they&#47;them&#47;theirs
+  pronouns-other         : he&#47;him&#47;his
+  pronouns-other-example : он&#47;его
   dietary-preference     : omnivore, but my order of preference for food is vegetarian > pescetarian > omnivorous
   accounts:
 # behance                : your_username
