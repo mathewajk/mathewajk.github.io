@@ -9,38 +9,66 @@ repository          : narquelion/narquelion.github.io # Change to <your-username
 
 
 ### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
+nav_exclude: # The following paths are excluded from navbar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/**
   - pages/blog.html
 
 
 ### Author Info ###
 author:
-  name              : Alex Kramer
-  image             : assets/images/profileimg.jpg
-#  behance          : your_username
-# dribbble          : your_username
-#  email             : arkram@umich.edu
-#  facebook         : your_username
-  github            : Narquelion
-# gitlab            : your_username
-# instagram         : your_username
-#  linkedin          : your_username
-#  medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-  twitter           : _alexeme
-# vimeo             : your_username
-# youtube           : your_channel_name
-  orcid             : 0000-0002-0509-1453
-  osf               : ubas9
-  google-scholar    : citations?user=8VsVQ2UAAAAJ&hl=en
+  name                   : Alex Kramer
+  image                  : /assets/images/profileimg.jpg
+  image-full             : /assets/images/profileimg_full.jpg
+  homepage               : alexkramer.io
+  locality               : Ann Arbor
+  province               : MI
+  country                : USA
+  languages:
+      - name: English
+        code: en-US
+        proficiency: native
+      - name: Japanese
+        code: ja
+        proficiency: advanced/fluent
+      - name: Russian
+        code: ru
+        proficiency: intermediate
+  handles :
+     - Narquelion
+     - Alexeme
+  nicknames:
+     - Nico
+     - Nick
+  email-text             : arkram AT umich DOT edu
+  birthday               : --10-18
+  pronouns-pref          : they/them/theirs
+  pronouns-pref-example  : hen/hens
+  pronouns-other         : he/him/his
+  pronouns-other-example : он/его
+  dietary-preference     : omnivore, but my order of preference is vegetarian > pescetarian > omnivorous
+  accounts:
+# behance                : your_username
+# dribbble               : your_username
+# email                  : arkram@umich.edu
+# facebook               : your_username
+      github                 : Narquelion
+# gitlab                 : your_username
+# instagram              : your_username
+# linkedin               : your_username
+# medium                 : your_username
+# soundcloud             : your_username
+# spotify                : your_username
+# stackoverflow          : your_user_id
+# tumblr                 : your_username.tumblr.com
+# twitch                 : your_username
+      twitter                : _alexeme
+# vimeo                  : your_username
+# youtube                : your_channel_name
+      orcid                  : 0000-0002-0509-1453
+      osf                    : ubas9
+      google-scholar         : citations?user=8VsVQ2UAAAAJ
 
 ### Posts ###
 permalink: /blog/:title
