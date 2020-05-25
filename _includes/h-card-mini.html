@@ -3,7 +3,7 @@
   <data class="p-name">{{ site.title }}</data>
   <data class="p-note">{{ site.description }}</data>
   <data class="dt-bday">{{ site.author.birthday }}</data>
-  <data class="p-gender-identity">{{ site.author.gender }}</data>
+
   <div class="u-email">{{ site.author.email-academic }}</div>
   <div class="u-email">{{ site.author.email-other }}</div>
   <data class="p-job-title">{{ site.position }}</data>
@@ -17,10 +17,16 @@
   {% for handle in site.author.handles %}
       <data class="p-nickname">{{ handle }}</data>
   {% endfor %}
-  {% for name in site.author.nicknames %}
-      <data class="p-nickname">{{ name }}</data>
-  {% endfor %}
   <data class="u-pronoun">{{ site.author.pronouns-pref }}</data>
   <data class="u-pronoun">{{ site.author.pronouns-other }}</data>
   <data class="p-dietary-preference">{{ site.author.dietary-preference }}</data>
+  
+  <data class="p-given-name">Alex</data>
+  <data class="p-additional-name">Nicolas</data>
+  <data class="p-additional-name">Harrison</data>
+  <data class="p-family-name">Kramer</data>
+  <data class="p-gender-identity">{{ site.author.gender }}</data>
+  {% for name in site.author.nicknames %}
+      <data class="p-nickname">{{ name }}</data>
+  {% endfor %}
 </div>
