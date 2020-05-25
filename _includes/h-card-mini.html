@@ -7,7 +7,8 @@
   <data class="u-email">{{ site.author.email-other }}</data>
   <data class="p-job-title">{{ site.position }}</data>
   <data class="p-org">{{ site.affiliation }}</data>
-  <data class="p-locality">{{ site.author.locality }}</data>,
+  <data class="p-locality">{{ site.author.locality }}</data>
+  <data class="p-country">{{ site.author.country }}</data>,
   <data class="p-region">{{ site.author.province }}</data>
   {% for language in site.author.languages %}
       <data class="p-language" value="{{ language.code }}">{{ language.name }}</data>
