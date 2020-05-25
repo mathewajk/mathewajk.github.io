@@ -13,6 +13,14 @@
             {{ site.title }}
           </div>
         </div>
+        <div class="row pb-2" style="display: none;">
+          <div class="col-3">
+            <strong>Birthday:</strong>
+          </div>
+          <div class="col-9">
+            <span class="dt-birthday">{{ site.author.birthday }}</span>
+          </div>
+        </div>
         <div class="row pb-2">
           <div class="col-3">
             <strong>Email:</strong>
@@ -97,7 +105,7 @@
         <strong>Other pronouns:</strong>
       </div>
       <div class="col-9">
-        I accept masculine pronouns (e.g. <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-other }}</span>, <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-other-example }}</span>) when neutral pronouns are unavailable or difficult to use.
+        I accept masculine pronouns (e.g. <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-other }}</span>, {{ site.author.pronouns-other-example }}) when neutral pronouns are unavailable or difficult to use.
       </div>
     </div>
     <div class="row pb-2">
@@ -105,7 +113,7 @@
         <strong>Dietary preference:</strong>
       </div>
       <div class="col-9 p-dietary-preference">
-          I am an {{ site.author.dietary-preference }}.
+          I am an {{ site.author.dietary-preference }} but my order of preference for food is vegetarian > pescetarian > omnivorous.
       </div>
     </div>
   </div>
