@@ -40,19 +40,16 @@ author:
      - Alexeme
   nicknames:
      - Nico
-  #  - Nick
-  email-text             : arkram AT umich DOT edu
+     - Nick
+  email-academic         : arkram AT umich DOT edu
+  email-other            : alex AT alexkramer DOT io
   birthday               : --10-18
   pronouns-pref          : they&#47;them&#47;theirs
   pronouns-other         : he&#47;him&#47;his
   pronouns-other-example : он&#47;его
   dietary-preference     : omnivore
   accounts:
-# behance                : your_username
-# dribbble               : your_username
-      email              : hello@alexkramer.io
       github             : Narquelion
-# gitlab                 : your_username
 # instagram              : your_username
 # linkedin               : your_username
 # medium                 : your_username
@@ -62,7 +59,6 @@ author:
 # tumblr                 : your_username.tumblr.com
 # twitch                 : your_username
       twitter                : _alexeme
-# vimeo                  : your_username
 # youtube                : your_channel_name
       orcid                  : 0000-0002-0509-1453
       osf                    : ubas9

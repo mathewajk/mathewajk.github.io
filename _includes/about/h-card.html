@@ -6,59 +6,67 @@
       </div>
       <div class="col-7">
         <div class="row pb-2">
-          <div class="col-3">
+          <div class="col-4">
             <strong>Name:</strong>
           </div>
-          <div class="col-9 p-name">
+          <div class="col-8 p-name">
             {{ site.title }}
           </div>
         </div>
         <div class="row pb-2" style="display: none;">
-          <div class="col-3">
+          <div class="col-4">
             <strong>Birthday:</strong>
           </div>
-          <div class="col-9">
+          <div class="col-8">
             <span class="dt-birthday">{{ site.author.birthday }}</span>
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-3">
-            <strong>Email:</strong>
+          <div class="col-4">
+            <strong>Email (academ.):</strong>
           </div>
-          <div class="col-9 u-email">
-            {{ site.author.email-text }}
+          <div class="col-8 u-email">
+            {{ site.author.email-academic }}
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-3">
+          <div class="col-4">
+            <strong>Email (other):</strong>
+          </div>
+          <div class="col-8 u-email">
+            {{ site.author.email-other }}
+          </div>
+        </div>
+        <div class="row pb-2">
+          <div class="col-4">
             <strong>Position:</strong>
           </div>
-          <div class="col-9 p-job-title">
+          <div class="col-8 p-job-title">
             {{ site.position }}
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-3">
+          <div class="col-4">
             <strong>Affiliation:</strong>
           </div>
-          <div class="col-9 p-org">
+          <div class="col-8 p-org">
             {{ site.affiliation }}
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-3">
+          <div class="col-4">
             <strong>Location:</strong>
           </div>
-          <div class="col-9">
+          <div class="col-8">
             <span class="p-locality">{{ site.author.locality }}</span>,
             <span class="p-region">{{ site.author.province }}</span>
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-3">
+          <div class="col-4">
             <strong>Languages:</strong>
           </div>
-          <div class="col-9">
+          <div class="col-8">
             <ul>
             {% for language in site.author.languages %}
               <li><span class="p-language" value="{{ language.code }}">{{ language.name }}</span> ({{ language.proficiency }})</li>
@@ -67,10 +75,10 @@
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-3">
+          <div class="col-4">
             <strong>Handles:</strong>
           </div>
-          <div class="col-9">
+          <div class="col-8">
             <ul>
             {% for handle in site.author.handles %}
               <li class="p-nickname">{{ handle }}</li>
@@ -78,11 +86,11 @@
             </ul>
           </div>
         </div>
-        <div class="row pb-2">
-          <div class="col-3">
+        <div class="row pb-2" style="display: none;">
+          <div class="col-4">
             <strong>Nicknames:</strong>
           </div>
-          <div class="col-9">
+          <div class="col-8">
             <ul>
             {% for name in site.author.nicknames %}
               <li class="p-nickname">{{ name }}</li>
@@ -93,26 +101,26 @@
       </div>
     </div>
     <div class="row pb-2">
-      <div class="col-3">
+      <div class="col-4">
         <strong>Preferred pronouns:</strong>
       </div>
-      <div class="col-9">
+      <div class="col-8">
         I prefer to use gender-neutral pronouns (e.g. <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-pref }}</span>) in languages in which this is an option.
       </div>
     </div>
     <div class="row pb-2">
-      <div class="col-3">
+      <div class="col-4">
         <strong>Other pronouns:</strong>
       </div>
-      <div class="col-9">
-        I accept masculine pronouns (e.g. <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-other }}</span>, {{ site.author.pronouns-other-example }}) when neutral pronouns are unavailable or difficult to use.
+      <div class="col-8">
+        I accept masculine pronouns (e.g. <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-other }}</span>, <span class="font-weight-bold">{{ site.author.pronouns-other-example }}</span>) when neutral pronouns are unavailable or difficult to use.
       </div>
     </div>
     <div class="row pb-2">
-      <div class="col-3">
+      <div class="col-4">
         <strong>Dietary preference:</strong>
       </div>
-      <div class="col-9 p-dietary-preference">
+      <div class="col-8 p-dietary-preference">
           I am an {{ site.author.dietary-preference }} but my order of preference for food is vegetarian > pescetarian > omnivorous.
       </div>
     </div>
