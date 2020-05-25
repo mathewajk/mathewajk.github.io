@@ -6,6 +6,8 @@
 
   {% include social.html %}
 
-  {% include h-card-mini.html %}
+  {% if page.url != "/about"}
+    {% include h-card-mini.html %}
+  {% endif %}
 
 </footer>
