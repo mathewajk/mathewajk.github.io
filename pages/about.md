@@ -6,6 +6,7 @@ weight: 3
 ---
 
 ## **Overview**
+<span class="small text-muted">(This section adheres to the microformats2 <a href="http://microformats.org/wiki/h-card">h-card</a> standard.)
 
 <div class="row">
    {% include about/h-card.html %}
