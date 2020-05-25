@@ -1,0 +1,24 @@
+<div class="h-card" style="display: none;">
+  <a class="u-url" rel="me" href="https://alexkramer.io{{ page.url }}"><img class="u-photo" src="{{ site.author.image-full }}" /></a>
+  <data class="p-name">{{ site.title }} />
+  <data class="dt-bday">{{ site.author.birthday }}</data>
+  <data class="p-gender-identity">{{ site.author.gender }}</data>
+  <data class="u-email">{{ site.author.email-academic }}</data>
+  <data class="u-email">{{ site.author.email-other }}</data>
+  <data class="p-job-title">{{ site.position }}</data>
+  <data class="p-org">{{ site.affiliation }}</data>
+  <data class="p-locality">{{ site.author.locality }}</data>,
+  <data class="p-region">{{ site.author.province }}</data>
+  {% for language in site.author.languages %}
+      <data class="p-language" value="{{ language.code }}">{{ language.name }}</data>
+  {% endfor %}
+  {% for handle in site.author.handles %}
+      <data class="p-nickname">{{ handle }}</data>
+  {% endfor %}
+  {% for name in site.author.nicknames %}
+      <data class="p-nickname">{{ name }}</data>
+  {% endfor %}
+  <data class="u-pronoun">{{ site.author.pronouns-pref }}</data>
+  <data class="u-pronoun">{{ site.author.pronouns-other }}</data>
+  <data class="p-dietary-preference">{{ site.author.dietary-preference }}</data>
+</div>
