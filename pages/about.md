@@ -5,7 +5,13 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+## **Overview**
+
+<div class="row">
+   {% include about/h-card.html %}
+</div>
+
+## **What I Do**
 
 I am a second-year in the linguistics department at the University of Michigan. I'm a member of Dr. Savithry Namboodiripad's Contact, Cognition and Change Lab.
 
@@ -18,6 +24,8 @@ More broadly, my research investigates the interaction between cognitive process
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 -->
+
+## **Experience**
 
 <div class="row">
 {% include about/timeline.html %}

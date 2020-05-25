@@ -1,0 +1,94 @@
+<div class="container card card-body h-card text-dark">
+  <div class="row align-items-center">
+    <div class="col-5">
+      <a u-name u-url ref="me" href="https://{{ site.author.homepage }}"><img class="u-photo" src="{{ site.author.image-full }}" /></a>
+    </div>
+    <div class="col-7">
+      <div class="row pb-2">
+        <div class="col-3">
+          <strong>Position:</strong>
+        </div>
+        <div class="col-9 p-job-title">
+          {{ site.position }}
+        </div>
+      </div>
+      <div class="row pb-2">
+        <div class="col-3">
+          <strong>Affiliation:</strong>
+        </div>
+        <div class="col-9 p-org">
+          {{ site.affiliation }}
+        </div>
+      </div>
+      <div class="row pb-2">
+        <div class="col-3">
+          <strong>Location:</strong>
+        </div>
+        <div class="col-9">
+          <span class="p-locality">{{ site.author.locality }}</span>,
+          <span class="p-region">{{ site.author.province }}</span>
+        </div>
+      </div>
+      <div class="row pb-2">
+        <div class="col-3">
+          <strong>Languages:</strong>
+        </div>
+        <div class="col-9">
+          <ul>
+          {% for language in site.author.languages %}
+            <li><span class="p-language" value="{{ language.code }}">{{ language.name }} ({{ language.proficiency }})</span></li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="row pb-2">
+        <div class="col-3">
+          <strong>Handles:</strong>
+        </div>
+        <div class="col-9">
+          <ul>
+          {% for handle in site.author.handles %}
+            <li class="p-nickname">{{ handle }}</li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="row pb-2">
+        <div class="col-3">
+          <strong>Nicknames:</strong>
+        </div>
+        <div class="col-9">
+          <ul>
+          {% for name in site.author.nicknames %}
+            <li class="p-nickname">{{ name }}</li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row pb-2">
+    <div class="col-3">
+      <strong>Preferred pronouns:</strong>
+    </div>
+    <div class="col-9">
+      I prefer to use gender-neutral pronouns (e.g. <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-pref }}</span>, <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-pref-example }}</span>) in languages in which this is an option.
+    </div>
+  </div>
+  <div class="row pb-2">
+    <div class="col-3">
+      <strong>Other pronouns:</strong>
+    </div>
+    <div class="col-9">
+      I accept masculine pronouns (e.g. <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-other }}</span>, <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-other-example }}</span>) when neutral pronouns are unavailable or difficult to use.
+    </div>
+  </div>
+  <div class="row pb-2">
+    <div class="col-3">
+      <strong>Dietary preference:</strong>
+    </div>
+    <div class="col-9 p-dietary-preference">
+        I am an {{ site.author.dietary-preference }}.
+    </div>
+  </div>
+</div>
