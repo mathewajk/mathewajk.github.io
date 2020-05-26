@@ -8,6 +8,9 @@ baseurl             : "" # Change to empty quotes if you are hosting your site a
 repository          : narquelion/narquelion.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
 
+gems:
+  - jekyll-webmention_io
+
 ### Navbar Settings ###
 nav_exclude: # The following paths are excluded from navbar
   - pages/tags.html
@@ -108,3 +111,4 @@ webmentions:
   cache_folder: .cache
   # skip bad URLs for 5 days
   cache_bad_uris_for: 5
+  js: true
