@@ -98,3 +98,13 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+
+
+webmentions:
+  author:
+    photo: /assets/images/profileimg.jpg
+  username: alexkramer.io
+  # Use my own cache folder
+  cache_folder: .cache
+  # skip bad URLs for 5 days
+  cache_bad_uris_for: 5

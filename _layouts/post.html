@@ -5,7 +5,7 @@ layout: page
 <h1><b>{{ page.title }}</b></h1>
 
 <p class="post-metadata text-muted">
-  {{ page.date | date_to_long_string }} -  
+  {{ page.date | date_to_long_string }} -
   <b>
   {%- assign words = content | number_of_words -%}
   {%- if words < 360 -%}
@@ -18,7 +18,7 @@ layout: page
   <br>
 
   {%- if page.tags != empty -%}
-    Tags: 
+    Tags:
     {% for tag in page.tags %}
     <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
       <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
@@ -29,3 +29,7 @@ layout: page
 </p>
 
 {{ content }}
+
+{% webmentions %}
+
+{% webmentions_js %}
