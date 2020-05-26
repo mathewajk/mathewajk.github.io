@@ -1,8 +1,5 @@
----
----
-
 function get_tools(repo_name) {
-  fetch(`https://api.github.com/repos/{{ site.github.owner_name }}/${repo_name}/topics`, {
+  fetch(`https://api.github.com/repos/narquelion/${repo_name}/topics`, {
     headers: {
       Accept: "application/vnd.github.mercy-preview+json"
     }

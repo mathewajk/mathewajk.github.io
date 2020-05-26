@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="height-100">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="I study the relationship between language processing and (contact-induced) language change using tools from experimental syntax and computational linguistics.">
+
+  <title>Alex Kramer</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="/assets/css/all.min.css">
+
+  <!-- Academicons CSS -->
+  <link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="/assets/css/animate.min.css" type="text/css"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+
+</head>
+
+
+<body class="d-flex flex-column height-100">
+
+  <main class="flex-shrink-0 container mt-5">
+  <nav class="navbar navbar-expand-lg navbar-light">
+
+  <div>
+    <a class="navbar-brand" href="/"><h5><b>Alex Kramer</b></h5></a>
+    <p class="small">Ph.D. student, Department of Linguistics, University of Michigan</p>
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link " href="/cv/">CV</a>
+
+      
+
+    </div>
+  </div>
+
+</nav>
+
+  <div class="col-lg-10 mx-auto mt-5 post">
+  <h1><b>GitHub Flow</b></h1>
+
+<p class="post-metadata text-muted">
+  01 January 2017 -
+  <b>4 mins read time</b>
+
+  <br>Tags:
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#github">
+      <span class="tag badge badge-pill text-primary border border-primary">GitHub</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#workflow">
+      <span class="tag badge badge-pill text-primary border border-primary">Workflow</span>
+    </a>
+    </p>
+
+<p>Source: <a href="https://guides.github.com/introduction/flow/">GitHub Guides</a></p>
+
+<h2 id="create-a-branch">Create a branch</h2>
+
+<p>When you’re working on a project, you’re going to have a bunch of different features or ideas in progress at any given time – some of which are ready to go, and others which are not. Branching exists to help you manage this workflow.</p>
+
+<p>When you create a branch in your project, you’re creating an environment where you can try out new ideas. Changes you make on a branch don’t affect the <code class="language-plaintext highlighter-rouge">master</code> branch, so you’re free to experiment and commit changes, safe in the knowledge that your branch won’t be merged until it’s ready to be reviewed by someone you’re collaborating with.</p>
+
+<h4 id="protip">ProTip</h4>
+
+<p>Branching is a core concept in Git, and the entire GitHub flow is based upon it. There’s only one rule: anything in the <code class="language-plaintext highlighter-rouge">master</code> branch is always deployable.</p>
+
+<p>Because of this, it’s extremely important that your new branch is created off of master when working on a feature or a fix. Your branch name should be descriptive (e.g., <code class="language-plaintext highlighter-rouge">refactor-authentication</code>, <code class="language-plaintext highlighter-rouge">user-content-cache-key</code>, <code class="language-plaintext highlighter-rouge">make-retina-avatars</code>), so that others can see what is being worked on.</p>
+
+<h2 id="add-commits">Add commits</h2>
+
+<p>Once your branch has been created, it’s time to start making changes. Whenever you add, edit, or delete a file, you’re making a commit, and adding them to your branch. This process of adding commits keeps track of your progress as you work on a feature branch.</p>
+
+<p>Commits also create a transparent history of your work that others can follow to understand what you’ve done and why. Each commit has an associated commit message, which is a description explaining why a particular change was made. Furthermore, each commit is considered a separate unit of change. This lets you roll back changes if a bug is found, or if you decide to head in a different direction.</p>
+
+<h4 id="protip-1">ProTip</h4>
+
+<p>Commit messages are important, especially since Git tracks your changes and then displays them as commits once they’re pushed to the server. By writing clear commit messages, you can make it easier for other people to follow along and provide feedback.</p>
+
+<h2 id="open-a-pull-request">Open a Pull Request</h2>
+
+<p>Pull Requests initiate discussion about your commits. Because they’re tightly integrated with the underlying Git repository, anyone can see exactly what changes would be merged if they accept your request.</p>
+
+<p>You can open a Pull Request at any point during the development process: when you have little or no code but want to share some screenshots or general ideas, when you’re stuck and need help or advice, or when you’re ready for someone to review your work. By using GitHub’s @mention system in your Pull Request message, you can ask for feedback from specific people or teams, whether they’re down the hall or ten time zones away.</p>
+
+<h4 id="protip-2">ProTip</h4>
+
+<p>Pull Requests are useful for contributing to open source projects and for managing changes to shared repositories. If you’re using a Fork &amp; Pull Model, Pull Requests provide a way to notify project maintainers about the changes you’d like them to consider. If you’re using a Shared Repository Model, Pull Requests help start code review and conversation about proposed changes before they’re merged into the master branch.</p>
+
+<h2 id="discuss-and-review-your-code">Discuss and review your code</h2>
+
+<p>Once a Pull Request has been opened, the person or team reviewing your changes may have questions or comments. Perhaps the coding style doesn’t match project guidelines, the change is missing unit tests, or maybe everything looks great and props are in order. Pull Requests are designed to encourage and capture this type of conversation.</p>
+
+<p>You can also continue to push to your branch in light of discussion and feedback about your commits. If someone comments that you forgot to do something or if there is a bug in the code, you can fix it in your branch and push up the change. GitHub will show your new commits and any additional feedback you may receive in the unified Pull Request view.</p>
+
+<h4 id="protip-3">ProTip</h4>
+
+<p>Pull Request comments are written in Markdown, so you can embed images and emoji, use pre-formatted text blocks, and other lightweight formatting.</p>
+
+<h2 id="deploy">Deploy</h2>
+
+<p>With GitHub, you can deploy from a branch for final testing in production before merging to master.</p>
+
+<p>Once your pull request has been reviewed and the branch passes your tests, you can deploy your changes to verify them in production. If your branch causes issues, you can roll it back by deploying the existing master into production.</p>
+
+<h2 id="merge">Merge</h2>
+
+<p>Now that your changes have been verified in production, it is time to merge your code into the master branch.</p>
+
+<p>Once merged, Pull Requests preserve a record of the historical changes to your code. Because they’re searchable, they let anyone go back in time to understand why and how a decision was made.</p>
+
+<h4 id="protip-4">ProTip</h4>
+
+<p>By incorporating certain keywords into the text of your Pull Request, you can associate issues with code. When your Pull Request is merged, the related issues are also closed. For example, entering the phrase <code class="language-plaintext highlighter-rouge">Closes #32</code> would close issue number 32 in the repository.</p>
+
+
+
+
+<script src="/js/JekyllWebmentionIO.js" async></script>
+<template style="display:none" id="webmention-bookmarks"><div class="webmentions webmentions--bookmarks">
+  {% if webmentions.size > 0 %}
+    <ol class="webmentions__list">
+      {% for webmention in webmentions %}
+        <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
+          <div class="webmention__content p-content">
+            {{ webmention.content }}
+          </div>
+          <div class="webmention__meta">
+            {% if webmention.author %}
+              <a class="webmention__author h-card u-url" href="{{ webmention.author.url }}" rel="nofollow">{{ webmention.author.name }}</a>
+            {% endif %}
+            {% if webmention.pubdate and webmention.url %}on{% endif %}
+            {% if webmention.pubdate %}
+              <a class="webmention__source u-url" href="{{ webmention.url }}" rel="nofollow">
+                <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+              </a>
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p class="webmentions__not-found">No bookmarks were found.</p>
+  {% endif %}
+</div></template><template style="display:none" id="webmention-likes"><div class="webmentions webmentions--likes">
+  {% if webmentions.size > 0 %}
+    <ol class="webmentions__list">
+      {% for webmention in webmentions %}
+        <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
+          <div class="webmention__author p-author h-card">
+            <a class="u-url" href="{{ webmention.author.url }}" rel="nofollow">
+              <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="" title="{{ webmention.author.name }}">
+            </a>
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p class="webmentions__not-found">No likes were found.</p>
+  {% endif %}
+</div></template><template style="display:none" id="webmention-links"><div class="webmentions webmentions--links">
+  {% if webmentions.size > 0 %}
+    <ol class="webmentions__list">
+      {% for webmention in webmentions %}
+        <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
+          <div class="webmention__content p-content">
+            {{ webmention.content }}
+          </div>
+          <div class="webmention__meta">
+            {% if webmention.author %}
+              <a class="webmention__author h-card u-url" href="{{ webmention.author.url }}" rel="nofollow">{{ webmention.author.name }}</a>
+            {% endif %}
+            {% if webmention.pubdate and webmention.url %}on{% endif %}
+            {% if webmention.pubdate %}
+              <a class="webmention__source u-url" href="{{ webmention.url }}" rel="nofollow">
+                <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+              </a>
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p class="webmentions__not-found">No links were found.</p>
+  {% endif %}
+</div></template><template style="display:none" id="webmention-posts"><div class="webmentions webmentions--posts">
+  {% if webmentions.size > 0 %}
+    <ol class="webmentions__list">
+      {% for webmention in webmentions %}
+        <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
+          <a class="webmention__title webmention__source u-url" href="{{ webmention.url }}" rel="nofollow">{{ webmention.title }}</a>
+          <div class="webmention__meta">
+            {% if webmention.pubdate %}
+              <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p class="webmentions__not-found">No posts were found.</p>
+  {% endif %}
+</div></template><template style="display:none" id="webmention-replies"><div class="webmentions webmentions--replies">
+  {% if webmentions.size > 0 %}
+    <ol class="webmentions__list">
+      {% for webmention in webmentions %}
+        <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
+          <div class="webmention__content p-content">
+            {{ webmention.content }}
+          </div>
+          <div class="webmention__meta">
+            {% if webmention.author %}
+              <a class="webmention__author h-card u-url" href="{{ webmention.author.url }}" rel="nofollow">
+                {% if webmention.author.photo %}
+                  <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="" title="{{ webmention.author.name }}">
+                {% endif %}
+                <b class="p-name">{{ webmention.author.name }}</b>
+              </a>
+            {% endif %}
+            {% if webmention.pubdate and webmention.author %}on{% endif %}
+            {% if webmention.pubdate %}
+              <a class="webmention__source u-url" href="{{ webmention.url }}" rel="nofollow">
+                <time class="webmention__pubdate dt-published" datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+              </a>
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p class="webmentions__not-found">No replies were found.</p>
+  {% endif %}
+</div></template><template style="display:none" id="webmention-reposts"><div class="webmentions webmentions--reposts">
+  {% if webmentions.size > 0 %}
+    <ol class="webmentions__list">
+      {% for webmention in webmentions %}
+        <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
+          <div class="webmention__author p-author h-card">
+            <a class="u-url" href="{{ webmention.author.url }}" rel="nofollow">
+              <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="" title="{{ webmention.author.name }}">
+            </a>
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p class="webmentions__not-found">No reposts were found.</p>
+  {% endif %}
+</div></template><template style="display:none" id="webmention-rsvps"><div class="webmentions webmentions--rsvps">
+  {% if webmentions.size > 0 %}
+    <ol class="webmentions__list">
+      {% for webmention in webmentions %}
+        <li id="webmention-{{ webmention.id }}" class="webmentions__item webmention webmention--{{ webmention.type }}">
+          <div class="webmention__author p-author h-card">
+            <a class="u-url" href="{{ webmention.author.url }}" rel="nofollow">
+              <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="Avatar for {{ webmention.author.name }}" title="{{ webmention.author.name }}">
+              <b class="p-name">{{ webmention.author.name }}</b>
+              {{ webmention.content }}
+            </a>
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p class="webmentions__not-found">No RSVPs were found.</p>
+  {% endif %}
+</div></template><template style="display:none" id="webmention-count">{% capture webmention_types %}{{ types | join: ',' }}{% endcapture %}
+<span class="webmention-count"{% unless webmention_types=="" %} data-webmention-types="{{ webmention_types }}"{% endunless %}>{{ count }}</span></template><template style="display:none" id="webmention-webmentions">{% capture webmention_types %}{{ types | join: ',' }}{% endcapture %}
+<div class="webmentions"{% unless webmention_types=="" %} data-webmention-types="{{ webmention_types }}"{% endunless %}>
+  {% if webmentions.size > 0 %}
+    <ol class="webmentions__list">
+      {% for webmention in webmentions %}
+        <li id="webmention-{{ webmention.id }}" class="webmentions__item">
+          <article class="h-cite webmention webmention--{{ webmention.type }}
+            {% unless webmention.author %}webmention--no-author{% endunless %}
+            {% unless webmention.author.photo %}webmention--no-photo{% endunless %}
+            {% if webmention.source=='twitter' %}{% if webmention.type=='like' or webmention.type=='repost' %}webmention--author-starts{% endif %}{% endif %}
+            ">
+            {% if webmention.author %}
+              <div class="webmention__author p-author h-card">
+                <a class="u-url" href="{{ webmention.author.url }}" rel="nofollow">
+                  {% if webmention.author.photo %}
+                    <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="" title="{{ webmention.author.name }}">
+                  {% endif %}
+                  <b class="p-name">{{ webmention.author.name }}</b>
+                </a>
+              </div>
+            {% endif %}
+
+            <div class="webmention__content p-content">
+              {% if webmention.content %}
+                {{ webmention.content }}
+              {% else %}
+                {{ webmention.title }}
+              {% endif %}
+            </div>
+            
+            <div class="webmention__meta">
+              {% if webmention.pubdate %}
+                <time class="webmention__pubdate dt-published"
+                      datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+              {% endif %}
+              {% if webmention.pubdate and webmention.url %}|{% endif %}
+              {% if webmention.url %}
+                <a class="webmention__source u-url" href="{{ webmention.url }}" rel="nofollow">Permalink</a>
+              {% endif %}
+            </div>
+          </article>
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p class="webmentions__not-found">No webmentions were found.</p>
+  {% endif %}
+</div></template>
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    arkram AT umich DOT edu
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1" rel="me"  href="https://www.github.com/Narquelion"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-2x ai-2x"></i>
+    </a><a class="social mx-1" rel="me"  href="https://www.twitter.com/_alexeme"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-2x ai-2x"></i>
+    </a><a class="social mx-1" rel="me"  href="https://orcid.org/0000-0002-0509-1453"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#A6CE39'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="ai ai-orcid fa-2x ai-2x"></i>
+    </a><a class="social mx-1" rel="me"  href="https://osf.io/ubas9"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#5CB9EC'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="ai ai-osf fa-2x ai-2x"></i>
+    </a><a class="social mx-1" rel="me"  href="https://scholar.google.com/citations?user=8VsVQ2UAAAAJ"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#4c90ff'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="ai ai-google-scholar fa-2x ai-2x"></i>
+    </a>
+
+</div>
+
+
+  
+    <div class="h-card" style="display: none;">
+  <a class="u-url" rel="me" href="https://alexkramer.io/blog/github-flow"><img class="u-photo" src="/assets/images/profileimg_full.jpg" /></a>
+  <data class="p-name">Alex Kramer</data>
+  <data class="p-note">I study the relationship between language processing and (contact-induced) language change using tools from experimental syntax and computational linguistics.</data>
+  <data class="dt-bday">--10-18</data>
+
+  <div class="u-email">arkram AT umich DOT edu</div>
+  <div class="u-email">alex AT alexkramer DOT io</div>
+  <data class="p-job-title">Ph.D. student</data>
+  <data class="p-org">Department of Linguistics, University of Michigan</data>
+  <data class="p-locality">Ann Arbor</data>
+  <data class="p-country-name">USA</data>
+  <data class="p-region">MI</data>
+  
+      <data class="p-language" value="en-US">English</data>
+  
+      <data class="p-language" value="ja">Japanese</data>
+  
+      <data class="p-language" value="ru">Russian</data>
+  
+  
+      <data class="p-nickname">Narquelion</data>
+  
+      <data class="p-nickname">Alexeme</data>
+  
+  <data class="u-pronoun">they&#47;them&#47;theirs</data>
+  <data class="u-pronoun">he&#47;him&#47;his</data>
+  <data class="p-dietary-preference">omnivore</data>
+  
+  <data class="p-given-name">Alex</data>
+  <data class="p-additional-name">Nicolas</data>
+  <data class="p-additional-name">Harrison</data>
+  <data class="p-family-name">Kramer</data>
+  <data class="p-gender-identity">Agender/Non-binary</data>
+  
+      <data class="p-nickname">Nico</data>
+  
+      <data class="p-nickname">Nick</data>
+  
+</div>
+
+  
+
+</footer>
+
+  <!-- GitHub Buttons -->
+<script async defer src="/assets/js/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="/assets/js/jquery-3.5.1.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="/assets/js/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="/assets/js/wow.min.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+</body>
+
+</html>
