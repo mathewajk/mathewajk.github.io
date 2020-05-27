@@ -296,9 +296,9 @@ body { font-family: "Poppins", sans-serif; }
 .post img:not(.emoji) { display: block; max-width: 100%; height: auto; margin: 1rem auto; }
 .post .video { position: relative; padding-bottom: 56.25%; margin-bottom: 1rem; width: 100%; }
 .post .video iframe { position: absolute; height: 100%; width: 100%; }
-.post a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) { display: inline-block; text-decoration: none; }
-.post a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline):hover { color: #007bff; }
-.post a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline)::after { content: ""; display: block; height: 0.15em; margin-top: -0.15em; width: 0; background: #007bff; transition: width 0.35s; }
+.post a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) { color: #2e136f; display: inline-block; text-decoration: none; }
+.post a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline):hover { color: #280287; }
+.post a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline)::after { content: ""; display: block; height: 0.15em; margin-top: -0.15em; width: 0; background: #280287; transition: width 0.35s; }
 .post a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline):hover::after { width: 100%; }
 .post pre { background: #f8f9fa; border: 1px solid #ddd; color: #343a40; font-family: monospace; font-size: 14px; line-height: 20px; margin-bottom: 1.6em; max-width: 100%; padding: 1em 1.5em; display: block; page-break-inside: avoid; overflow: auto; word-wrap: break-word; }
 .post code.highlighter-rouge { background-color: #f8f9fa; color: #343a40; border-radius: 3px; margin: 0; padding: 0.2em 0.65em; }
@@ -322,7 +322,7 @@ body { font-family: "Poppins", sans-serif; }
 
 .circle-image { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; object-position: center; }
 
-.link-after, .nav-link::after, .navbar-brand::after, .nav-item.active::after { content: ""; display: block; height: 0.15em; background: #6f42c1; }
+.link-after, .nav-link::after, .navbar-brand::after, .nav-item.active::after { content: ""; display: block; height: 0.15em; background: #280287; }
 
 .nav-link, .navbar-brand { padding-bottom: 1em; }
 .nav-link::after, .navbar-brand::after { width: 0; transition: width 0.35s; }
@@ -562,10 +562,18 @@ body { font-family: "Poppins", sans-serif; }
 .skill-100 { width: 100%; }
 
 .timeline-body { position: relative; background-color: #f8f9fa; border-radius: 0 15px 15px 0; padding: 5px 0; }
-.timeline-body:after { content: ""; width: 4px; height: 100%; background-color: #6f42c1; position: absolute; left: -4px; top: 0; }
+.timeline-body:after { content: ""; width: 4px; height: 100%; background-color: #280287; position: absolute; left: -4px; top: 0; }
 .timeline-body .timeline-item { position: relative; }
-.timeline-body .timeline-item:after { content: ""; width: 20px; height: 20px; border-radius: 50%; border: 4px solid #6f42c1; background-color: #f8f9fa; position: absolute; left: -12px; top: 8px; z-index: 10; }
+.timeline-body .timeline-item:after { content: ""; width: 20px; height: 20px; border-radius: 50%; border: 4px solid #280287; background-color: #f8f9fa; position: absolute; left: -12px; top: 8px; z-index: 10; }
 .timeline-body .timeline-item .content { margin: 20px; padding-bottom: 5px; border-bottom: 1px dashed #343a40; }
 .timeline-body .timeline-item .content .date { margin-top: -5px; margin-bottom: 5px; color: #6c757d; }
 
 .height-100 { height: 100% !important; }
+
+a { color: #280287; }
+
+.badge-theme { color: #fff; background-color: #280287 !important; }
+
+.text-color-theme { color: #280287; }
+
+.text-color-theme-muted { color: #2e136f; }
