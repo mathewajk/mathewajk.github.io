@@ -65,11 +65,12 @@
   }
 
   a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {
+    color: $theme-color-muted;
     display: inline-block;
     text-decoration: none;
 
     &:hover {
-      color: $primary;
+      color: $theme-color;
     }
 
     &::after {
@@ -78,7 +79,7 @@
       height: 0.15em;
       margin-top: -0.15em;
       width: 0;
-      background: $primary;
+      background: $theme-color;
       transition: width 0.35s;
     }
 

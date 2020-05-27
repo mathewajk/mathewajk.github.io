@@ -1,7 +1,11 @@
 <!-- Remote Projects JS -->
 <script src="{{ '/assets/js/remote-projects.js' | relative_url }}"></script>
 
-<div class="card-columns m-3 mt-5">
+<br/>
+
+<h3>Repositories</h3>
+
+<div class="card-columns mb-5 mt-3">
 
   <!-- Remote Projects -->
   {% for remote_project in page.remote_projects %}
@@ -30,6 +34,12 @@
     <script>get_tools("{{ project_id }}")</script>
 
   {% endfor %}
+
+  </div>
+
+  <h3>Project Sites</h3>
+
+  <div class="card-columns mb-5 mt-3">
 
   <!-- Local Projects -->
   {% for project in site.projects %}

@@ -6,7 +6,7 @@ weight: 3
 ---
 
 ## **Overview**
-<span class="small text-muted">(This section adheres to the microformats2 <a href="http://microformats.org/wiki/h-card">h-card</a> standard.)
+<span class="small text-muted">(This section adheres to the <a href="http://microformats.org/wiki/h-card">microformats2 h-card <i class="far fa-address-card"></i> standard</a>.)
 
 <div class="row">
    {% include about/h-card.html %}
@@ -14,7 +14,7 @@ weight: 3
 
 ## **What I Do**
 
-I am a second-year in the linguistics department at the University of Michigan. I'm a member of Dr. Savithry Namboodiripad's Contact, Cognition and Change Lab.
+I am a second-year in the linguistics department at the University of Michigan. I'm a member of [Dr. Savithry Namboodiripad's](http://savi.ling.lsa.umich.edu/) [Contact, Cognition and Change Lab](https://github.com/ccc-lab).
 
 Currently, I am working on change in constituent order flexibility through multiple projects. My primary research, which I am conducting for my Qualifying Research Paper, concerns the acceptability of non-canonical constituent orders among Japanese-English bilinguals in the greater Detroit area.
 

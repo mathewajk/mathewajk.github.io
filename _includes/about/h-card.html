@@ -1,15 +1,15 @@
 <div class="h-card">
   <div class="container card card-body text-dark">
     <div class="row align-items-center">
-      <div class="col-5">
+      <div class="col-6">
         <a class="u-url u-uid" rel="me" href="https://{{ site.author.homepage }}/about/"><img class="u-photo" src="{{ site.author.image-full }}" /></a>
       </div>
-      <div class="col-7">
+      <div class="col-6">
         <div class="row pb-2">
-          <div class="col-4">
-            <strong>Name:</strong>
+          <div class="col-1">
+            <i class="text-color-theme-muted fas fa-user"></i>
           </div>
-          <div class="col-8 p-name">
+          <div class="col-10 p-name">
             {{ site.title }}
           </div>
         </div>
@@ -30,34 +30,34 @@
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-4">
-            <strong>Email (academ.):</strong>
+          <div class="col-1">
+            <strong><i class="text-color-theme-muted fas fa-envelope"></i></strong>
           </div>
-          <div class="col-8 u-email">
-            {{ site.author.email-academic }}
+          <div class="col-11 u-email">
+            {{ site.author.email-academic }} <span class="muted small">(academic inqueries only)</span>
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-4">
-            <strong>Email (other):</strong>
+          <div class="col-1">
+            <i class="text-color-theme-muted far fa-envelope"></i>
           </div>
-          <div class="col-8 u-email">
+          <div class="col-11 u-email">
             {{ site.author.email-other }}
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-4">
-            <strong>Position:</strong>
+          <div class="col-1">
+            <i class="text-color-theme-muted fas fa-graduation-cap"></i>
           </div>
-          <div class="col-8 p-job-title">
+          <div class="col-10 p-job-title">
             {{ site.position }}
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-4">
-            <strong>Affiliation:</strong>
+          <div class="col-1">
+            <i class="text-color-theme-muted fas fa-school"></i>
           </div>
-          <div class="col-8 p-org">
+          <div class="col-10 p-org">
             {{ site.affiliation }}
           </div>
         </div>
@@ -70,28 +70,30 @@
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-4">
-            <strong>Location:</strong>
+          <div class="col-1">
+            <i class="text-color-theme-muted fas fa-globe-americas"></i>
           </div>
-          <div class="col-8">
+          <div class="col-10">
             <span class="p-locality">{{ site.author.locality }}</span>,
             <span class="p-region">{{ site.author.province }}</span>,
             <span class="p-country-name">{{ site.author.country }}</span>
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-4">
-            <strong>Languages:</strong>
+          <div class="col-1">
+            <i class="text-color-theme-muted fas fa-language"></i>
           </div>
-          <div class="col-8">
-            <ul>
+          <div class="col-10">
             {% for language in site.author.languages %}
-              <li><span class="p-language" value="{{ language.code }}">{{ language.name }}</span> ({{ language.proficiency }})</li>
+              <div class="row">
+                <div class="col-12">
+                  <span class="p-language" value="{{ language.code }}">{{ language.name }}</span> <span class="badge badge-theme badge-pill">{{ language.proficiency }}</span>
+                </div>
+              </div>
             {% endfor %}
-            </ul>
           </div>
         </div>
-        <div class="row pb-2">
+        <div class="row pb-2" style="display: none;">
           <div class="col-4">
             <strong>Handles:</strong>
           </div>
@@ -115,32 +117,32 @@
             </ul>
           </div>
         </div>
+
+      <div class="row pb-2">
+        <div class="col-1">
+          <i class="text-color-theme-muted fas fa-venus-mars"></i>
+        </div>
+        <div class="col-10">
+          I prefer gender-neutral pronouns (e.g. <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-pref }}</span>) in languages in which this is an option.
+        </div>
+      </div>
+      <div class="row pb-2">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          I accept masculine pronouns (e.g. <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-other }}</span>, <span class="font-weight-bold">{{ site.author.pronouns-other-example }}</span>) when neutral pronouns are unavailable or difficult to use.
+        </div>
+      </div>
+      <div class="row pb-2" style="display: none;">
+        <div class="col-4">
+          <strong>Dietary preference:</strong>
+        </div>
+        <div class="col-8 p-dietary-preference">
+            I am an {{ site.author.dietary-preference }} but my order of preference for food is vegetarian > pescetarian > omnivorous.
+        </div>
       </div>
     </div>
-    <div class="row pb-2">
-      <div class="col-4">
-        <strong>Preferred pronouns:</strong>
-      </div>
-      <div class="col-8">
-        I prefer to use gender-neutral pronouns (e.g. <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-pref }}</span>) in languages in which this is an option.
-      </div>
-    </div>
-    <div class="row pb-2">
-      <div class="col-4">
-        <strong>Other pronouns:</strong>
-      </div>
-      <div class="col-8">
-        I accept masculine pronouns (e.g. <span class="u-pronoun font-weight-bold">{{ site.author.pronouns-other }}</span>, <span class="font-weight-bold">{{ site.author.pronouns-other-example }}</span>) when neutral pronouns are unavailable or difficult to use.
-      </div>
-    </div>
-    <div class="row pb-2">
-      <div class="col-4">
-        <strong>Dietary preference:</strong>
-      </div>
-      <div class="col-8 p-dietary-preference">
-          I am an {{ site.author.dietary-preference }} but my order of preference for food is vegetarian > pescetarian > omnivorous.
-      </div>
-    </div>
+  </div>
   </div>
   <div style="display: none">
     <data class="p-given-name">Alex</data>
