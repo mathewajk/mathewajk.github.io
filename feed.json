@@ -1,0 +1,33 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Alex Kramer",
+  "description": "I study the relationship between language processing and (contact-induced) language change using tools from experimental syntax and computational linguistics.",
+  "home_page_url": "http://localhost:4000",
+  "feed_url": "http://localhost:4000/blog/feed.json",
+  "favicon": "http://localhost:4000/assets/favicon.png",
+  
+  "author": {
+    "name": "Alex Kramer"
+  },
+  
+  "items": [
+
+    
+    {
+      "id": "http://localhost:4000/blog/digital-minimalism",
+      "url": "http://localhost:4000/blog/digital-minimalism",
+      "title": "Digital Minimalism",
+      "content_html": "<h2 id=\"header\">Header</h2>\n\n<p>Here is some text.</p>\n",
+      "date_published": "Tue, 09 Feb 2016 00:00:00 -0500"
+      },
+    
+    {
+      "id": "http://localhost:4000/blog/remote-test",
+      "url": "http://localhost:4000/blog/remote-test",
+      "title": "Remote Post Test",
+      "content_html": "\n",
+      "date_published": "Fri, 25 Sep 2015 00:00:00 -0400"
+      }
+    
+  ]
+}

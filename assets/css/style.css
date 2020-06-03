@@ -577,3 +577,7 @@ a { color: #280287; }
 .text-color-theme { color: #280287; }
 
 .text-color-theme-muted { color: #2e136f; }
+
+.bg-theme-muted-color { background-color: #2e136f; }
+
+.bg-theme-color { background-color: #280287; }

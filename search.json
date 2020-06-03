@@ -3,7 +3,7 @@
     {
       "title"    : "Digital Minimalism",
       "category" : "",
-      "tags"     : "test",
+      "tags"     : "test, local",
       "url"      : "/blog/digital-minimalism",
       "date"     : "2016-02-09 00:00:00 -0500"
     } ,
@@ -11,8 +11,8 @@
     {
       "title"    : "Remote Post Test",
       "category" : "",
-      "tags"     : "test",
-      "url"      : "https://blog.usejournal.com/how-to-undo-your-git-failure-b76e31ecac74",
+      "tags"     : "test, remote",
+      "url"      : "https://aranarquelion.tumblr.com",
       "date"     : "2015-09-25 00:00:00 -0400"
     } 
   

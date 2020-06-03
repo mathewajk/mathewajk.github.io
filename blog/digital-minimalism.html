@@ -78,6 +78,10 @@
     <a class="text-decoration-none no-underline" href="/blog/tags#test">
       <span class="tag badge badge-pill text-theme border border-theme">test</span>
     </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#local">
+      <span class="tag badge badge-pill text-theme border border-theme">local</span>
+    </a>
     </p>
 
 <h2 id="header">Header</h2>
@@ -88,7 +92,32 @@
 <h3>Webmentions</h3>
 
 <div class="webmentions">
-  <p class="webmentions__not-found">No webmentions were found.</p>
+  <ol class="webmentions__list">
+    <li id="webmention-801717" class="webmentions__item">
+      <article class="h-cite webmention webmention--reply
+            ">
+        <div class="webmention__author p-author h-card">
+          <a class="u-url" href="" rel="nofollow">
+            <img class="webmention__author__photo u-photo" src="https://webmention.io/avatar/webmention.rocks/e08155b03da96cb1bdfd161ea24efdfad8d85d06afcee540ec246f1f613eb5a9.png" alt="" title="Webmention Rocks!">
+            <b class="p-name">Webmention Rocks!</b>
+          </a>
+        </div>
+        <div class="webmention__content p-content">
+          <p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href="https://www.w3.org/TR/webmention/#receiving-webmentions">appropriate headers</a>.</p>
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>    &lt;p&gt;If your endpoint returns HTTP 201, then it MUST also return a &lt;code&gt;Location&lt;/code&gt; header. If it returns HTTP 200 or 202, then it MUST NOT include a &lt;code&gt;Location&lt;/code&gt; header.&lt;/p&gt;
+</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="webmention__meta">
+          <time class="webmention__pubdate dt-published"
+                      datetime="2020-05-26T09:58:59-04:00">26 May 2020</time>
+        </div>
+      </article>
+    </li>
+  </ol>
 </div>
 
 <script src="/js/JekyllWebmentionIO.js" async></script>
