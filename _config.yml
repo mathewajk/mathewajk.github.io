@@ -51,12 +51,11 @@ author:
   dietary-preference     : omnivore
   accounts:
       github             : Narquelion
-      microblog          : a_lexeme
       orcid              : 0000-0002-0509-1453
       osf                : ubas9
       google-scholar     : citations?user=8VsVQ2UAAAAJ
-      twitter            : _alexeme
-      
+      twitter            : a_lexeme
+      microblog          : a_lexeme
 # instagram              : your_username
 # linkedin               : your_username
 # medium                 : your_username
