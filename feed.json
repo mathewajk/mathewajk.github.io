@@ -14,16 +14,16 @@
 
     
     {
-      "id": "https://alexkramer.iohttps://alexkramer.io/blog/digital-minimalism",
-      "url": "https://alexkramer.iohttps://alexkramer.io/blog/digital-minimalism",
+      "id": "https://alexkramer.io/blog/digital-minimalism",
+      "url": "https://alexkramer.io/blog/digital-minimalism",
       "title": "Digital Minimalism",
       "content_html": "<h2 id=\"header\">Header</h2>\n\n<p>Here is some text.</p>\n",
       "date_published": "Tue, 09 Feb 2016 00:00:00 -0500"
       },
     
     {
-      "id": "https://alexkramer.iohttps://alexkramer.io/blog/remote-test",
-      "url": "https://alexkramer.iohttps://alexkramer.io/blog/remote-test",
+      "id": "https://alexkramer.io/blog/remote-test",
+      "url": "https://alexkramer.io/blog/remote-test",
       "title": "Remote Post Test",
       "content_html": "\n",
       "date_published": "Fri, 25 Sep 2015 00:00:00 -0400"
