@@ -46,6 +46,11 @@ medium:
   icon  : fab fa-medium
   color : 00ab6c
 
+microblog:
+  url: https://micro.blog/
+  icon: fab fa-microblog
+  color: f29c3a
+
 soundcloud:
   url   : https://www.soundcloud.com/
   icon  : fab fa-soundcloud
