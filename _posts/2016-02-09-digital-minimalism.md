@@ -1,9 +1,9 @@
 ---
 title: Digital Minimalism
-tags: [test]
+tags: [test, local]
 style: fill
-color: secondary
-description: Testing.
+color: light
+description: A post to test webmentions & local posts.
 ---
 
 ## Header

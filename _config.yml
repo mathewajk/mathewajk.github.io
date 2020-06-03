@@ -5,6 +5,7 @@ affiliation         : Department of Linguistics, University of Michigan
 description         : >-
                       I study the relationship between language processing and (contact-induced) language change using tools from experimental syntax and computational linguistics.
 baseurl             : "" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+url                 : https://alexkramer.io
 repository          : narquelion/narquelion.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
 

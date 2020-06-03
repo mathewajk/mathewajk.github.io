@@ -1,8 +1,8 @@
 ---
 title: Remote Post Test
-tags: [test]
+tags: [test, remote]
 style: fill
-color: warning
-description: Testing.
-external_url: https://blog.usejournal.com/how-to-undo-your-git-failure-b76e31ecac74
+color: light
+description: This is a post to test the use of external blog posts.
+external_url: https://aranarquelion.tumblr.com
 ---
