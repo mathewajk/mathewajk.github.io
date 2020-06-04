@@ -11,9 +11,9 @@ function get_tools(repo_name) {
       toolSpan.innerHTML = tool;
       toolSpan.classList.add("badge");
       toolSpan.classList.add("badge-pill");
-      toolSpan.classList.add("text-primary");
+      toolSpan.classList.add("text-color-theme");
       toolSpan.classList.add("border");
-      toolSpan.classList.add("border-primary");
+      toolSpan.classList.add("border-color-theme");
 
       var parent = document.getElementById((`${repo_name}-tools`));
       parent.appendChild(toolSpan);

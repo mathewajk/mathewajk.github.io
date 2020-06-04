@@ -581,3 +581,5 @@ a { color: #280287; }
 .bg-theme-muted-color { background-color: #2e136f; }
 
 .bg-theme-color { background-color: #280287; }
+
+.btn-outline-theme { color: #280287; border-color: #280287; }
