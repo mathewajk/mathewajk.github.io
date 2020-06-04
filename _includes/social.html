@@ -4,8 +4,6 @@
 
   {% for account in site.author.accounts %}
 
-    <script>console.log("{{ account[0] }}");</script>
-
     {%- assign service_name = account[0] -%}
     {%- assign service_data = site.data.social-media[service_name] -%}
     {%- if service_data -%}

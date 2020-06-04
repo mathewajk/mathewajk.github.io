@@ -1,7 +1,37 @@
-<div class="card-group mt-2">
-
-  {% for post in site.posts %}
-    {% include blog/post-card.html %}
+<ul id="post-list">
+  <script>console.log("Getting posts")</script>
+  {% for post in paginator.posts %}
+  <li>
+    <article>
+      {% if post.title == "" %}
+      <section class="post-body">
+        {{ post.content }}
+      </section>
+      {% else %}
+      <header>
+        {% if post.external_url != "" %}
+          <h2><a href="{{ post.external_url }}">{{ post.title }}</a></h2>
+        {% else %}
+          <h2><a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{{ post.title }}</a></h2>
+        {% endif %}
+      </header>
+      <section class="post-body">
+        {{ post.content }}
+      </section>
+      {% endif %}
+      <a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}" class="u-url">
+        <aside class="dates">
+          <time datetime="{{ post.date }}" class="dt-published">→ {{ post.date | date:"%-I:%M %p, %b %-d" }}</time>
+        </aside>
+      </a>
+    </article>
+  </li>
+  <span class="separator"><span class="divider"></span></span>
   {% endfor %}
-  
-</div>
+</ul>
+
+{% include blog/search.html %}
+
+{% if paginator.previous_page or paginator.next_page %}
+  {% include pagination.html %}
+{% endif %}

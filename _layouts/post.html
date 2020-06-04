@@ -1,34 +1,41 @@
 ---
-layout: page
+layout: blog_default
+profile: true
 ---
 
-<h1><b>{{ page.title }}</b></h1>
-
-<p class="post-metadata text-muted">
-  {{ page.date | date_to_long_string }} -
-  <b>
-  {%- assign words = content | number_of_words -%}
-  {%- if words < 360 -%}
-    less than 1 min read time
-  {%- else -%}
-    {{ words | divided_by: 180 }} mins read time
-  {%- endif -%}
-  </b>
-
-  <br>
-
-  {%- if page.tags != empty -%}
-    Tags:
-    {% for tag in page.tags %}
-    <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
-      <span class="tag badge badge-pill text-theme border border-theme">{{ tag }}</span>
-    </a>
-    {% endfor %}
-  {%- endif -%}
-
-</p>
-
-{{ content }}
+<article class="h-entry post">
+  <header>
+    <ul class="h-card p-author author hidden">
+      <li>
+        <a class="u-url" href="{{ "/" | relative_url  }}" rel="me"><span class="p-author">{{ site.author }}</span></a>
+      </li>
+      <li>
+        <img class="u-photo" src="/assets/images/profileimg.jpg" alt="">
+      </li>
+      <li>
+        <a href="mailto:{{ site.email }}" class="u-email" rel="me">{{ site.email }}</a>
+      </li>
+    </ul>
+    <h1 class="p-name">{{ page.title }}</h1>
+    <h2 class="headline">
+      <time class="dt-published" datetime="{{ page.date }}">
+        <a class="u-url dates" href="{{ site.baseurl }}/{{ page.url | remove_first: '/' }}">{{ page.date | date:"%B %-d, %Y" }}</a>
+      </time>
+    </h2>
+  </header>
+  <section class="e-content post-body">
+      {{content}}
+  </section>
+</article>
+<section id="post-meta" class="clearfix">
+  <a href="/">
+    <img class="avatar" src="/assets/images/profileimg.jpg">
+    <div>
+      <span class="dark">{{ site.author.name }}</span>
+      <span>{{ site.description }}</span>
+    </div>
+  </a>
+</section>
 
 <h3>Webmentions</h3>
 

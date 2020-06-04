@@ -1,5 +1,6 @@
 ---
 title: Digital Minimalism
+layout: post
 tags: [test, local]
 style: fill
 color: light

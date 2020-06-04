@@ -16,12 +16,11 @@
       {%- assign filtered_pages = "" | split: "" -%}
 
       {%- for html_page in html_pages -%}
-
         {%- assign exclude = false -%}
 
         {%- for exclude_path in site.nav_exclude -%}
 
-          {%- if exclude_path == html_page.path -%}
+          {%- if exclude_path == html_page.permalink -%}
             {%- assign exclude = true -%}
             {%- break -%}
           {%- elsif exclude_path contains '**' -%}

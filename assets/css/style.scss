@@ -31,3 +31,8 @@ a {
 .bg-theme-color {
   background-color: $theme-color;
 }
+
+.btn-outline-theme {
+  color: $theme-color;
+  border-color: $theme-color;
+}

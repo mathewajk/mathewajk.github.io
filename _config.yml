@@ -8,13 +8,21 @@ baseurl             : ""
 url                 : https://alexkramer.io
 repository          : narquelion/narquelion.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/blog/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 ### Navbar Settings ###
 nav_exclude: # The following paths are excluded from navbar
-  - pages/tags.html
-  - pages/404.html
-  - pages/index.md
-  - pages/blog.html
+  - /404.html
+  - /
+  - /blog/tags
+  - /blog/index.html
 
 
 ### Author Info ###
