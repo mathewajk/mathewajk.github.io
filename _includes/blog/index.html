@@ -9,11 +9,13 @@
       </section>
       {% else %}
       <header>
-        {% if post.external_url != "" %}
-          <h2><a href="{{ post.external_url }}">{{ post.title }}</a></h2>
+        <h2>
+        {% if post.external_url %}
+          <a href="{{ post.external_url }}"><i class="small text-muted fas fa-link"></i> {{ post.title }}</a>
         {% else %}
-          <h2><a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{{ post.title }}</a></h2>
+          <a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}"><i class="small text-muted fas fa-link"></i> {{ post.title }}</a>
         {% endif %}
+        </h2>
       </header>
       <section class="post-body">
         {{ post.content }}
