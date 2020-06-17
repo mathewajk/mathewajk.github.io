@@ -1,27 +1,27 @@
 [
   
     {
-      "title"    : "Pashatham phonology",
+      "title"    : "Some comments on Pashatham phonotactics",
       "category" : "",
-      "tags"     : "Päsätheemi, conlangs",
-      "url"      : "/blog/pashatham-phonology",
+      "tags"     : "Päsätheemi, conlangs, phonology",
+      "url"      : "/blog/pashatham-phonotactics",
+      "date"     : "2020-06-17 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Pashatham vowels",
+      "category" : "",
+      "tags"     : "Päsätheemi, conlangs, phonology",
+      "url"      : "/blog/pashatham-vowels",
+      "date"     : "2020-06-05 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Pashatham consonants",
+      "category" : "",
+      "tags"     : "Päsätheemi, conlangs, phonology",
+      "url"      : "/blog/pashatham-consonants",
       "date"     : "2020-06-04 00:00:00 -0400"
-    } ,
-  
-    {
-      "title"    : "Digital Minimalism",
-      "category" : "",
-      "tags"     : "test, local",
-      "url"      : "/blog/digital-minimalism",
-      "date"     : "2016-02-09 00:00:00 -0500"
-    } ,
-  
-    {
-      "title"    : "Remote Post Test",
-      "category" : "",
-      "tags"     : "test, remote",
-      "url"      : "https://aranarquelion.tumblr.com",
-      "date"     : "2015-09-25 00:00:00 -0400"
     } 
   
 ]
