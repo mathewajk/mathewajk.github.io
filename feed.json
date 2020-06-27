@@ -2,9 +2,9 @@
   "version": "https://jsonfeed.org/version/1",
   "title": "Alex Kramer",
   "description": "I study the relationship between language processing and (contact-induced) language change using tools from experimental syntax and computational linguistics.",
-  "home_page_url": "https://alexkramer.io",
-  "feed_url": "https://alexkramer.io/feed.json",
-  "favicon": "https://alexkramer.io/assets/favicon.png",
+  "home_page_url": "http://localhost:4000",
+  "feed_url": "http://localhost:4000/feed.json",
+  "favicon": "http://localhost:4000/assets/favicon.png",
   
   "author": {
     "name": "Alex Kramer"
@@ -14,27 +14,51 @@
 
     
     {
-      "id": "https://alexkramer.io/blog/pashatham-phonotactics",
-      "url": "https://alexkramer.io/blog/pashatham-phonotactics",
+      "id": "http://localhost:4000/blog/a-short-hike",
+      "url": "http://localhost:4000/blog/a-short-hike",
+      "title": "A (not so) short hike",
+      "content_html": "<p><img src=\"/assets/game_images/ashorthike.gif\" alt=\"Campsite from the beginning of the game.\" /></p>\n\n<p>On a whimsical island that manages to evoke a number of both classics and newer games without feeling stilted, <a href=\"https://ashorthike.com\">A Short Hike</a> by <a href=\"https://adamgryu.com/\">adamgryu</a> brings together elements of <em>Animal Crossing</em>, <em>Legend of Zelda</em>, <em>A Night in the Woods</em>, and <em>Celeste</em> to produce a moving journey with plenty of exploring to do on the side. From its colorful art and clever dialogue—sometimes impressively real, other times downright silly—to the layered situational <a href=\"https://marksparling.bandcamp.com/album/a-short-hike-original-soundtrack\">music</a>, all aspects of the game are deeply expressive. Even the physics of walking and flying seemed to fit the game—trekking uphill feels suitably difficult; diving through the air is exhilarating. Though its main goal can be completed within an hour or two, I found it hard to step away.</p>\n",
+      "date_published": "Tue, 16 Jun 2020 00:00:00 -0400"
+      },
+    
+    {
+      "id": "http://localhost:4000/blog/pashatham-phonotactics",
+      "url": "http://localhost:4000/blog/pashatham-phonotactics",
       "title": "Some comments on Pashatham phonotactics",
       "content_html": "<p>Stop consonant clusters must agree in place; the preceeding stop assimilates in these features to the following one. For example, <em>pakŭt</em> [pakɯt] ‘eight’ + <em>-kAm</em> [kAm] ‘ordinal number suffix’ → <em>pakŭkkam</em> [pakɯkkam] ‘eighth’.</p>\n\n<p>Fricative-stop clusters are allowed (ex. veśti [βeɕti] ‘wind’), but must agree in voicing. Stop-fricative clusters, however, are present only in roots. When affixation would result in such clusters, the stop assimilates fully to the following fricative. For example, <em>ćyyšyyt</em> [t͡ɕy:ʂy:t] ‘field’ + <em>-šEE</em> [ʂE:] ‘locative suffix’ → <em>ćyyšyyššee</em> [t͡ɕy:ʂy:ʂ:e:].</p>\n",
-      "date_published": "Wed, 17 Jun 2020 00:00:00 -0400"
+      "date_published": "Sat, 30 May 2020 00:00:00 -0400"
       },
     
     {
-      "id": "https://alexkramer.io/blog/pashatham-vowels",
-      "url": "https://alexkramer.io/blog/pashatham-vowels",
+      "id": "http://localhost:4000/blog/pashatham-vowels",
+      "url": "http://localhost:4000/blog/pashatham-vowels",
       "title": "Pashatham vowels",
       "content_html": "<p>Vowels may be short or long and are subject to front-back vowel harmony. The front vowels are /i y e ø æ/, and the corresponding back vowels are /ɯ u ə o a/.</p>\n\n<table>\n  <thead>\n    <tr>\n      <th style=\"text-align: left\"> </th>\n      <th style=\"text-align: center\">Front</th>\n      <th style=\"text-align: center\">Central</th>\n      <th style=\"text-align: center\">Back</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td style=\"text-align: left\">Close</td>\n      <td style=\"text-align: center\">i i: y y:</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">ɯ ɯ: u u:</td>\n    </tr>\n    <tr>\n      <td style=\"text-align: left\">Close-mid</td>\n      <td style=\"text-align: center\">e e: ø ø:</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">o o:</td>\n    </tr>\n    <tr>\n      <td style=\"text-align: left\">Mid</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">ə ə:</td>\n      <td style=\"text-align: center\"> </td>\n    </tr>\n    <tr>\n      <td style=\"text-align: left\">Near-open</td>\n      <td style=\"text-align: center\">æ [æ~ɛ̞] æ: [æ:~ɛ̞:]</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n    </tr>\n    <tr>\n      <td style=\"text-align: left\">Open</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">a [a~ɑ] a: [a:~ɑ:]</td>\n      <td style=\"text-align: center\"> </td>\n    </tr>\n  </tbody>\n</table>\n\n<p>The vowels that surface in an affix are determined by the root to which the affix is attached. For example, <em>ljŭŭqśaap</em> [lʲɯːqɕa:p] ‘adult human’ + <em>-In</em> [In] ‘to be (anim.)’ → <em>ljŭŭqśaapŭn</em> [lʲɯːqɕa:pɯn] ‘to be an adult’. In noun compounds, the second noun typically determines vowel harmony; however, some compounds behave idiosyncratically.</p>\n",
-      "date_published": "Fri, 05 Jun 2020 00:00:00 -0400"
+      "date_published": "Sun, 10 May 2020 00:00:00 -0400"
       },
     
     {
-      "id": "https://alexkramer.io/blog/pashatham-consonants",
-      "url": "https://alexkramer.io/blog/pashatham-consonants",
+      "id": "http://localhost:4000/blog/pashatham-consonants",
+      "url": "http://localhost:4000/blog/pashatham-consonants",
       "title": "Pashatham consonants",
       "content_html": "<p>Pashatham features a large inventory of fricatives, but—perhaps somehwhat conspicuously—lacks [z]. (This is because [z] is a bad sound. \\s) Aside from this, though, its consonant inventory is fairly simple.</p>\n\n<table>\n  <thead>\n    <tr>\n      <th style=\"text-align: left\"> </th>\n      <th style=\"text-align: center\">Bilab.</th>\n      <th style=\"text-align: center\">Lbd.</th>\n      <th style=\"text-align: center\">Alv.</th>\n      <th style=\"text-align: center\">Rtf.</th>\n      <th style=\"text-align: center\">Pal.</th>\n      <th style=\"text-align: center\">Vel.</th>\n      <th style=\"text-align: center\">Uvu.</th>\n      <th style=\"text-align: center\">Glt.</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td style=\"text-align: left\"><strong>Nasal</strong></td>\n      <td style=\"text-align: center\">m</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">n</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">ŋ</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n    </tr>\n    <tr>\n      <td style=\"text-align: left\"><strong>Plosive</strong></td>\n      <td style=\"text-align: center\">p</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">t</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">k</td>\n      <td style=\"text-align: center\">q</td>\n      <td style=\"text-align: center\"> </td>\n    </tr>\n    <tr>\n      <td style=\"text-align: left\"><strong>Fricative</strong></td>\n      <td style=\"text-align: center\">ɸ\tβ</td>\n      <td style=\"text-align: center\">þ ð</td>\n      <td style=\"text-align: center\">s</td>\n      <td style=\"text-align: center\">ʂ ʐ</td>\n      <td style=\"text-align: center\">ɕ</td>\n      <td style=\"text-align: center\">x</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">h</td>\n    </tr>\n    <tr>\n      <td style=\"text-align: left\"><strong>Affricate</strong></td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">t͡s</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">t͡ɕ</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n    </tr>\n    <tr>\n      <td style=\"text-align: left\"><strong>Lat. Appx.</strong></td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">l</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n    </tr>\n    <tr>\n      <td style=\"text-align: left\"><strong>Appx.</strong></td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">j</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n    </tr>\n    <tr>\n      <td style=\"text-align: left\"><strong>Trill</strong></td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">r</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n    </tr>\n    <tr>\n      <td style=\"text-align: left\"><strong>Flap</strong></td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\">[ɾ]</td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n      <td style=\"text-align: center\"> </td>\n    </tr>\n  </tbody>\n</table>\n\n<p>All consonants may be geminated; for example <em>uutta</em> [u:tta] ‘that’, <em>uuppŭ</em> [u:ppɯ] ‘this’, <em>sejâssâ</em> [sejæs:æ] ‘nine’, <em>ôyśśâân</em> [öyɕ:æ:n] ‘to die’, <em>le̊nauhhat</em> [lənauh:at] ‘it (inan.) visited’.</p>\n\n<h2 id=\"allophony\">Allophony</h2>\n\n<p>[ɾ] is a word-medial allophone of /r/; however, geminate /r/ is realized as [r:]. C.f. <em>rââriź</em> [ræ:ɾiʐ] ‘child’, <em>joohme̊rrur</em> [jo:mər:ur] ‘he/she/they is/are sleeping’.</p>\n",
-      "date_published": "Thu, 04 Jun 2020 00:00:00 -0400"
+      "date_published": "Sat, 09 May 2020 00:00:00 -0400"
+      },
+    
+    {
+      "id": "http://localhost:4000/blog/palace-of-woe",
+      "url": "http://localhost:4000/blog/palace-of-woe",
+      "title": "LOOK at the PALACE OF WOE",
+      "content_html": "<p><img src=\"/assets/game_images/palaceofwoe.gif\" alt=\"Scarecrow fight.\" /></p>\n\n<p>A self-described “sort ‘em up”, <a href=\"https://owch.itch.io/palace-of-woe\">PALACE OF WOE</a> by <a href=\"https://owch.itch.io/\">owch</a> is a transformative puzzle adventure featuring an intriguing and, at times, highly challenging multidirectional-Testris-like battle system. Enemies and music reminiscent OFF give the top-down, GameBoy-esque world an eerie atmosphere despite its pastel color scheme. Although unsettling on the surface, reaching the end of the game (a few-hours-long endeavor) was cathartic and—to my surprise—deeply personal.</p>\n",
+      "date_published": "Sat, 14 Mar 2020 00:00:00 -0400"
+      },
+    
+    {
+      "id": "http://localhost:4000/blog/kat",
+      "url": "http://localhost:4000/blog/kat",
+      "title": "ᗢ",
+      "content_html": "<p><img src=\"/assets/game_images/kat.gif\" alt=\"Opening gameplay.\" /></p>\n\n<p>The bright, pixel-y world of <a href=\"https://tak.itch.io/meow\">ᗢ</a> by <a href=\"https://tak.itch.io/\">tak</a> invites exploration, and getting to wander it as a small black cat only sweetens the deal. Despite spending much of the game feeling hopelessly lost, its subtle pathfinding kept me moving in (mostly) the right direction. The ending was sweet; definitely a game worth playing.</p>\n",
+      "date_published": "Sat, 15 Jun 2019 00:00:00 -0400"
       }
     
   ]

@@ -1,27 +1,51 @@
 [
   
     {
+      "title"    : "A (not so) short hike",
+      "category" : "",
+      "tags"     : "video games, indie, reviews, recommended",
+      "url"      : "/blog/a-short-hike",
+      "date"     : "2020-06-16 00:00:00 -0400"
+    } ,
+  
+    {
       "title"    : "Some comments on Pashatham phonotactics",
       "category" : "",
-      "tags"     : "Päsätheemi, conlangs, phonology",
+      "tags"     : "Pâsâtheemi, conlangs, phonology, phonotactics",
       "url"      : "/blog/pashatham-phonotactics",
-      "date"     : "2020-06-17 00:00:00 -0400"
+      "date"     : "2020-05-30 00:00:00 -0400"
     } ,
   
     {
       "title"    : "Pashatham vowels",
       "category" : "",
-      "tags"     : "Päsätheemi, conlangs, phonology",
+      "tags"     : "Pâsâtheemi, conlangs, phonology, vowels",
       "url"      : "/blog/pashatham-vowels",
-      "date"     : "2020-06-05 00:00:00 -0400"
+      "date"     : "2020-05-10 00:00:00 -0400"
     } ,
   
     {
       "title"    : "Pashatham consonants",
       "category" : "",
-      "tags"     : "Päsätheemi, conlangs, phonology",
+      "tags"     : "Pâsâtheemi, conlangs, phonology, consonants",
       "url"      : "/blog/pashatham-consonants",
-      "date"     : "2020-06-04 00:00:00 -0400"
+      "date"     : "2020-05-09 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "LOOK at the PALACE OF WOE",
+      "category" : "",
+      "tags"     : "video games, indie, reviews, recommended",
+      "url"      : "/blog/palace-of-woe",
+      "date"     : "2020-03-14 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "ᗢ",
+      "category" : "",
+      "tags"     : "video games, indie, reviews, recommended",
+      "url"      : "/blog/kat",
+      "date"     : "2019-06-15 00:00:00 -0400"
     } 
   
 ]
