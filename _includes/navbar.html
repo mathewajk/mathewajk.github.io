@@ -16,19 +16,14 @@
       {%- assign filtered_pages = "" | split: "" -%}
 
       {%- for html_page in html_pages -%}
-        {%- assign exclude = false -%}
+        {%- assign exclude = true -%}
 
-        {%- for exclude_path in site.nav_exclude -%}
+        {%- for include_path in site.nav_include -%}
 
-          {%- if exclude_path == html_page.permalink -%}
-            {%- assign exclude = true -%}
+          <script>console.log("{{ include_path }}"); console.log("{{ html_page.permalink }}")</script>
+          {%- if include_path == html_page.permalink -%}
+            {%- assign exclude = false -%}
             {%- break -%}
-          {%- elsif exclude_path contains '**' -%}
-            {%- assign match = exclude_path | remove: '**' -%}
-            {%- if html_page.path contains match -%}
-              {%- assign exclude = true -%}
-              {%- break -%}
-            {%- endif -%}
           {%- endif -%}
 
         {%- endfor -%}

@@ -2,9 +2,10 @@
   <section id="wrapper">
     <header>
       <a href="{{ "/" | relative_url  }}about">
-        <img id="avatar" src="/assets/images/profileimg.jpg"/>
+        <img id="avatar" src="{{ site.blog.image }}"/>
       </a>
-      <h1>{{ site.author.name }}</h1>
+      <h1>{{ site.blog.name }}</h1>
+      <small>{{ site.blog.description }}</small>
     </header>
   </section>
 </div>

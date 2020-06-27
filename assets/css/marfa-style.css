@@ -335,10 +335,18 @@ body.marfa {
 }
 
 .marfa img {
-  width: 100%;
-  max-width: 100%;
+  max-width: 50%;
   border-radius: 5px;
 }
+
+.marfa p img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
 
 .marfa ul   {
   margin: 0;

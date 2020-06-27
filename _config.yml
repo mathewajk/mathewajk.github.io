@@ -8,21 +8,25 @@ baseurl             : ""
 url                 : https://alexkramer.io
 repository          : narquelion/narquelion.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
+blog:
+  description: I write small reviews for small games. Sometimes I also make small things of my own.
+  name:        Nico
+  image:       /assets/images/avatar.jpg
+
 pagination:
   enabled: true
   per_page: 5
-  permalink: '/blog/:num/'
+  permalink: '/:num/'
   title: ':title - page :num of :max'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
 
 ### Navbar Settings ###
-nav_exclude: # The following paths are excluded from navbar
-  - /404.html
-  - /
-  - /blog/tags
-  - /blog/index.html
+nav_include: # The following paths are excluded from navbar
+  - /about/
+  - /projects/
+  - /cv/
 
 
 ### Author Info ###

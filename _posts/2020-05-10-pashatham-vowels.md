@@ -1,7 +1,7 @@
 ---
 title: Pashatham vowels
 layout: post
-tags: [Päsätheemi, conlangs, phonology]
+tags: [Pâsâtheemi, conlangs, phonology, vowels]
 description: Vowel harmony is still cool.
 ---
 

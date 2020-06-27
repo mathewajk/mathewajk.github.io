@@ -1,7 +1,7 @@
 ---
 title: Pashatham consonants
 layout: post
-tags: [Päsätheemi, conlangs, phonology]
+tags: [Pâsâtheemi, conlangs, phonology, consonants]
 description: If you like fricatives, this is the conlang for you.
 ---
 
