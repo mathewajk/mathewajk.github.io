@@ -3,6 +3,7 @@ title: Pashatham consonants
 layout: post
 tags: [Pâsâtheemi, conlangs, phonology, consonants]
 description: If you like fricatives, this is the conlang for you.
+date: 2020-05-09 18:40
 ---
 
 Pashatham features a large inventory of fricatives, but---perhaps somehwhat conspicuously---lacks [z]. (This is because [z] is a bad sound. \\s) Aside from this, though, its consonant inventory is fairly simple.

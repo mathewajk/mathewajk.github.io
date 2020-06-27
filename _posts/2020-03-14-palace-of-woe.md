@@ -2,6 +2,7 @@
 title: LOOK at the PALACE OF WOE
 layout: post
 tags: [video games, indie, reviews, recommended]
+date: 2020-03-14 20:09
 ---
 
 ![Scarecrow fight.](/assets/game_images/palaceofwoe.gif)

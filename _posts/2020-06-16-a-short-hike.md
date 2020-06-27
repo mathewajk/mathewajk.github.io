@@ -2,6 +2,7 @@
 title: A (not so) short hike
 layout: post
 tags: [video games, indie, reviews, recommended]
+date: 2020-06-16 20:25
 ---
 
 ![Campsite from the beginning of the game.](/assets/game_images/ashorthike.gif)

@@ -3,6 +3,7 @@ title: Pashatham vowels
 layout: post
 tags: [Pâsâtheemi, conlangs, phonology, vowels]
 description: Vowel harmony is still cool.
+date: 2020-05-10 21:00
 ---
 
 Vowels may be short or long and are subject to front-back vowel harmony. The front vowels are /i y e ø æ/, and the corresponding back vowels are /ɯ u ə o a/.

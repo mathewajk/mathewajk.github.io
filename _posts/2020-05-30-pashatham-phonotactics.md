@@ -3,6 +3,7 @@ title: Some comments on Pashatham phonotactics
 layout: post
 tags: [Pâsâtheemi, conlangs, phonology, phonotactics]
 description: Nothing too crazy here.
+date: 2020-05-30 17:44
 ---
 
 Stop consonant clusters must agree in place; the preceeding stop assimilates in these features to the following one. For example, *pakŭt* [pakɯt] 'eight' + *-kAm* [kAm] 'ordinal number suffix' → *pakŭkkam* [pakɯkkam] 'eighth'.
