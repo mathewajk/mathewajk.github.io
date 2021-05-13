@@ -115,7 +115,7 @@ exclude:
 
 webmentions:
   author:
-    photo: /assets/images/profileimg.jpg
+    photo: /assets/images/profileimg_5132021_small.jpg
   username: alexkramer.io
   # Use my own cache folder
   cache_folder: .cache
