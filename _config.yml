@@ -32,7 +32,7 @@ nav_include: # The following paths are excluded from navbar
 ### Author Info ###
 author:
   name                   : Mathew Alex Kramer
-  image                  : /assets/images/profileimg.jpg
+  image                  : /assets/images/profileimg_5132021_small.jpeg
   image-full             : /assets/images/profileimg_full.jpg
   homepage               : alexkramer.io
   locality               : Ann Arbor
@@ -115,7 +115,7 @@ exclude:
 
 webmentions:
   author:
-    photo: /assets/images/profileimg_5132021_small.jpg
+    photo: /assets/images/profileimg_5132021_small.jpeg
   username: alexkramer.io
   # Use my own cache folder
   cache_folder: .cache
