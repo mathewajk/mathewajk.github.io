@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : Alex Kramer
+title               : Mathew Alex Kramer
 position            : Ph.D. student
 affiliation         : Department of Linguistics, University of Michigan
 description         : >-
@@ -10,7 +10,7 @@ repository          : narquelion/narquelion.github.io # Change to <your-username
 
 blog:
   description: I write small reviews for small games. Sometimes I also make small things of my own.
-  name:        Nico
+  name:        Maths
   image:       /assets/images/avatar.jpg
 
 pagination:
@@ -31,7 +31,7 @@ nav_include: # The following paths are excluded from navbar
 
 ### Author Info ###
 author:
-  name                   : Alex Kramer
+  name                   : Mathew Alex Kramer
   image                  : /assets/images/profileimg.jpg
   image-full             : /assets/images/profileimg_full.jpg
   homepage               : alexkramer.io
@@ -52,8 +52,7 @@ author:
      - Narquelion
      - Alexeme
   nicknames:
-     - Nico
-     - Nick
+     - Maths
   email-academic         : arkram AT umich DOT edu
   email-other            : alex AT alexkramer DOT io
   birthday               : --10-18
