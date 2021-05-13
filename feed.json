@@ -1,13 +1,13 @@
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": "Alex Kramer",
+  "title": "Mathew Alex Kramer",
   "description": "I study the relationship between language processing and (contact-induced) language change using tools from experimental syntax and computational linguistics.",
   "home_page_url": "https://alexkramer.io",
   "feed_url": "https://alexkramer.io/feed.json",
   "favicon": "https://alexkramer.io/assets/favicon.png",
   
   "author": {
-    "name": "Alex Kramer"
+    "name": "Mathew Alex Kramer"
   },
   
   "items": [
