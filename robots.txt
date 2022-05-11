@@ -63,4 +63,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://mathewkramer.io/sitemap.xml
+Sitemap: https://narquelion.github.io/sitemap.xml
