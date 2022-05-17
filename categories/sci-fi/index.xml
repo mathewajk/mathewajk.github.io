@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sci-fi on Mathew A. Kramer</title>
+    <link>https://mathewkramer.io/categories/sci-fi/</link>
+    <description>Recent content in Sci-fi on Mathew A. Kramer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mathewkramer.io/categories/sci-fi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TGDNE series (2/?): Are you sure this spaceship is abandoned?</title>
+      <link>https://mathewkramer.io/2022/220428_spaceship/</link>
+      <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathewkramer.io/2022/220428_spaceship/</guid>
+      <description>This is the second track in my &amp;ldquo;This Game Does Not Exist&amp;rdquo; collection, and also the first of my &amp;ldquo;morning sprints&amp;rdquo;, where I try to spend an hour in the morning developing some new idea. Of course, the polishing took longer than an hour, but all in all, this is more of a proof-of-concept than what I would call a full-fledged track: A quick idea to get something out there (which is what matters)!</description>
+    </item>
+    
+  </channel>
+</rss>

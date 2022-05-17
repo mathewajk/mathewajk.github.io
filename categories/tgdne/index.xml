@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TGDNE on Mathew A. Kramer</title>
+    <link>https://mathewkramer.io/categories/tgdne/</link>
+    <description>Recent content in TGDNE on Mathew A. Kramer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mathewkramer.io/categories/tgdne/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TGDNE series (2/?): Are you sure this spaceship is abandoned?</title>
+      <link>https://mathewkramer.io/2022/220428_spaceship/</link>
+      <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathewkramer.io/2022/220428_spaceship/</guid>
+      <description>This is the second track in my &amp;ldquo;This Game Does Not Exist&amp;rdquo; collection, and also the first of my &amp;ldquo;morning sprints&amp;rdquo;, where I try to spend an hour in the morning developing some new idea. Of course, the polishing took longer than an hour, but all in all, this is more of a proof-of-concept than what I would call a full-fledged track: A quick idea to get something out there (which is what matters)!</description>
+    </item>
+    
+    <item>
+      <title>TGDNE series (1/?): Oops! You found the forest boss</title>
+      <link>https://mathewkramer.io/2022/220425_forestboss/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathewkramer.io/2022/220425_forestboss/</guid>
+      <description>This was orignally meant to be my submission for a course on video game music I took on the side this semester. I ended up getting to do a collaboration with a great dev team and produce music for an actual game, but I didn&amp;rsquo;t want to abandon this one. So, it gets to be the first entry in my &amp;ldquo;This Game Does Not Exist&amp;rdquo; collection of game-inspired but as yet un-play-tested music!</description>
+    </item>
+    
+  </channel>
+</rss>

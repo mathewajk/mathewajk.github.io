@@ -5,7 +5,17 @@
     <description>Recent content in Mathew A. Kramer on Mathew A. Kramer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mathewkramer.io/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Posts</title>
+      <link>https://mathewkramer.io/posts/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathewkramer.io/posts/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
