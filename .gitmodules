@@ -1,0 +1,6 @@
+[submodule "KeepIt"]
+	path = KeepIt
+	url = https://github.com/Fastbyte01/KeepIt.git
+[submodule "gruvhugo"]
+	path = gruvhugo
+	url = https://gitlab.com/avron/gruvhugo.git
