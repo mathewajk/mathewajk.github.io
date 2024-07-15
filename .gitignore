@@ -1,7 +1,12 @@
-_elements/
-documentation/
+.cache
+
+_site
+_elements
+documentation
 
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+.DS_Store
 .DS_STORE
